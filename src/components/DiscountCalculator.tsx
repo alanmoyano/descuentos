@@ -123,7 +123,9 @@ export default function DiscountCalculator() {
         </div>
         <div className="space-y-2">
           <p className="font-semibold">Precio Final: ${finalPrice}</p>
-          <p className="font-semibold">Descuento Total "Real": {totalDiscount}%</p>
+          <p className="font-semibold">
+            Descuento Total &quot;Real&quot;: {totalDiscount}%
+          </p>
         </div>
       </CardContent>
     </Card>
